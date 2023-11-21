@@ -1,10 +1,15 @@
+/**
+ * Initializes and exports Firebase services.
+ * Imports Firebase Auth, Firestore, and Storage SDKs.
+ * Initializes Firebase app with config.
+ * Exports initialized Auth, Storage, and Firestore instances.
+*/
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 import { initializeApp } from "firebase/app";
 
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyARSicVCH9RzlQGlqxal2lGSALJVebW1G0",
     authDomain: "connectyou-fc086.firebaseapp.com",
